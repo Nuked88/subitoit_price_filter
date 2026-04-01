@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subito Price Filter</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔍 Price Filter</h1>
+    <p class="subtitle">Filtra gli annunci per prezzo</p>
+    
+    <div class="form-group">
+      <label for="minPrice">Prezzo minimo (€)</label>
+      <input type="number" id="minPrice" min="0" placeholder="Es: 100">
+    </div>
+    
+    <div class="form-group">
+      <label for="maxPrice">Prezzo massimo (€)</label>
+      <input type="number" id="maxPrice" min="0" placeholder="Es: 500">
+    </div>
+    
+    <div class="button-group">
+      <button id="applyFilter" class="btn-primary">Applica Filtro</button>
+      <button id="clearFilter" class="btn-secondary">Rimuovi Filtro</button>
+    </div>
+    
+    <div id="status" class="status-message"></div>
+    
+    <div class="divider"></div>
+    
+    <a href="https://ko-fi.com/nuked" target="_blank" class="kofi-button">
+      ☕ Offrimi un caffè su Ko-fi!
+    </a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
