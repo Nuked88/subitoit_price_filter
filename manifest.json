@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Subito.it Price Filter",
+  "name": "Subito.it Filtro Prezzi",
   "version": "1.0.0",
   "description": "Filtra gli annunci Subito.it in base al prezzo, nascondendo quelli che non rientrano nei limiti impostati.",
   "permissions": ["storage", "activeTab"],
